@@ -1,0 +1,64 @@
+﻿# Ignore JetBrains Rider and IntelliJ IDEA specific files
+.idea/
+.idea_modules/
+*.sln.iml
+*.sln.ide
+
+# Ignore .NET build artifacts
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.app
+*.ipa
+*.dylib
+*.so
+*.a
+*.lib
+
+# Ignore build logs
+*.log
+
+# Ignore Rider workspace file and directories
+.idea/
+.idea_modules/
+.idea.*
+*.sln.iml
+.vscode/
+
+# Ignore packages directory and NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider settings and caches
+.idea/
+.idea_modules/
+*.sln.iml
+.vscode/
+
+# Ignore compiled class files
+*.class
+
+# Ignore JetBrains Rider-specific caches & logs
+.idea/
+.idea_modules/
+
+# Ignore Visual Studio Code workspace file
+.vscode/
+
+# Ignore unnecessary Rider caches & logs
+.idea/
+
+# Ignore JetBrains Rider caches & logs
+.idea
